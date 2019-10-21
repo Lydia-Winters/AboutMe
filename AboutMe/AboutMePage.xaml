@@ -1,5 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AboutMe.AboutMePage">
-    <ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AboutMe.AboutMePage" BackgroundColor="#F0F3F4">
+    <ContentPage.Content >
+        <ScrollView>
+        <StackLayout>
+            <Label
+                TextColor="#D97D54"
+                FontSize="35"
+                Text="About Me"
+                HorizontalOptions="Center"
+                Margin="0, 20, 0, 20"/>
+               
+          
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            
+
+            <Frame BackgroundColor="White"  Padding="25" Margin="20, -100, 20, 20" CornerRadius="20" Grid.Row="1" Grid.RowSpan="2" >
+                <StackLayout Spacing="20">
+            <Label
+                Margin="0, 80, 0 , 0"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                FontSize="35"
+                TextColor="Black"
+                Text="Lydia Winters"/>
+            <Label
+                HorizontalOptions="Center"
+                FontSize="20"
+                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend, eros id gravida iaculis, lorem ligula semper nunc, nec ultricies mi lacus in risus. Quisque viverra rhoncus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus felis ligula, semper commodo enim ut, volutpat semper eros."
+                />
+                  </StackLayout>
+                </Frame>
+                <Image
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                Source="headshotcircle.png"
+                WidthRequest="200"/>
+            </Grid>
+               
+        </StackLayout>
+     </ScrollView>
     </ContentPage.Content>
 </ContentPage>
