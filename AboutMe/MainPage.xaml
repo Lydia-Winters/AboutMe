@@ -26,7 +26,7 @@
         Text="My Skills"
         TextColor="#D97D54"
         FontSize="Title"
-        />
+        Clicked="SkillsButton_Clicked"/>
 
     <BoxView
         HeightRequest="1"
@@ -38,7 +38,7 @@
         Text="Contact"
         TextColor="#D97D54"
         FontSize="Title"
-        />
+        Clicked="ContactButton_Clicked"/>
 </StackLayout>
     
 </ContentPage>

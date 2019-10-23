@@ -1,5 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AboutMe.ContactPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AboutMe.ContactPage" BackgroundColor="#F0F3F4">
     <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label
+                TextColor="#D97D54"
+                FontSize="35"
+                Text="Contact"
+                HorizontalOptions="Center"
+                Margin="0, 40, 0, 20"
+                />
+               
+            <Frame BackgroundColor="White"  Padding="25" Margin="20, 0, 20,0" CornerRadius="20" Grid.Row="1" Grid.RowSpan="2" >
+                <StackLayout Spacing="20">
+                <StackLayout Margin="30" Spacing="25">
+
+                <Entry x:Name="nameEntry" Placeholder="Name*" />
+
+                <Entry x:Name="emailEntry" Placeholder="Email*"  />
+
+                <Entry x:Name="phoneNumberEntry" Placeholder="Phone Number" />
+
+                <Entry x:Name="questionEntry" Placeholder="Question*" />
+
+                <Button
+                    BackgroundColor="#6E8CA0"
+                    Text="Submit"
+                    TextColor="white"
+                    MinimumWidthRequest="20"
+                    CornerRadius="40"
+                    HorizontalOptions="End"
+                    Clicked="SubmitButton_OnClicked"/>
+
+                    </StackLayout>
+                  </StackLayout>
+                </Frame>
+            
+        </StackLayout>
+     </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -22,5 +22,15 @@ namespace AboutMe
         {
             Navigation.PushAsync(new AboutMePage());
         }
+
+        private void SkillsButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SkillsPage());
+        }
+
+        private void ContactButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ContactPage());
+        }
     }
 }
