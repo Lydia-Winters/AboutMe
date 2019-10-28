@@ -22,7 +22,7 @@
             <Frame BackgroundColor="White"  Padding="25" Margin="20, -100, 20, 20" CornerRadius="20" Grid.Row="1" Grid.RowSpan="2" >
                 <StackLayout Spacing="20">
             <Label
-                Margin="0, 80, 0 , 0"
+                Margin="0, 100, 0 , 0"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 FontSize="35"
@@ -30,8 +30,9 @@
                 Text="Lydia Winters"/>
             <Label
                 HorizontalOptions="Center"
-                FontSize="20"
-                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend, eros id gravida iaculis, lorem ligula semper nunc, nec ultricies mi lacus in risus. Quisque viverra rhoncus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus felis ligula, semper commodo enim ut, volutpat semper eros."
+                FontSize="23"
+                Margin="0, 20, 0, 0"
+                Text="My name is Lydia Winters I am a student at Pittsburg State University majoring in Graphic Communication with an emphasis in Web/ Interactive Media. I grew up in Pittsburg Kansas and attended Pittsburg High School. "
                 />
                   </StackLayout>
                 </Frame>
